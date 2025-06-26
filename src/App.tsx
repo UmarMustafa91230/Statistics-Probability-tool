@@ -27,6 +27,16 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-all duration-500">
+      <div className="w-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-gray-800 dark:to-gray-900 py-6 border-b border-gray-300 dark:border-gray-700 text-center">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl font-extrabold text-gray-800 dark:text-white mb-2">Statistics & Probability</h2>
+          <div className="text-lg text-gray-700 dark:text-gray-300 font-medium">Task #02</div>
+          <div className="text-lg text-gray-700 dark:text-gray-300 font-medium">Umar Mustafa</div>
+          <div className="text-lg text-gray-700 dark:text-gray-300 font-medium">SP23-BSE-058</div>
+          <div className="text-lg text-gray-700 dark:text-gray-300 font-medium">Submit to: Sir M. Asif Rafique</div>
+        </div>
+      </div>
+
       {/* Header */}
       <header className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
